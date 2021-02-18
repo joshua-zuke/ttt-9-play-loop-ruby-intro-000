@@ -39,7 +39,7 @@ end
 # Needs to be a loop that ends after 9 times. Could use "until", make a "turn counter"
 def play(board)
   turn_counter = 0
-  until turn_counter == 10
+  until turn_counter == 3
     turn(board)
     turn_counter += 1
   end
