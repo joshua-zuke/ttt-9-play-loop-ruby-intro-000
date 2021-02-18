@@ -36,8 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
+# Needs to be a loop that ends after 9 times. Could use "until", make a "turn counter"
 def play(board)
-  9.times do
+  turn_counter = 0
+  until turn_counter == 10
     turn(board)
   end
 end
